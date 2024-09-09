@@ -1,0 +1,357 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.header {
+padding-block: 32px;
+margin-inline: 165px;
+width: 1440px;
+background-color: black;
+padding-inline: 165px;
+}
+.header-icons {
+  display: flex;
+  justify-content: space-between;
+ color: #fff;
+}
+.header-items {
+  display: flex;
+  gap: 40px;
+  
+}
+.user-info {
+  vertical-align: middle;
+   padding-right: 8px;
+}
+
+.header-items a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "open sans";
+}
+.hero {
+  padding-top: 88px;
+  padding-bottom: 88.37px;
+  color: #fff;
+}
+.hero-inner {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.hero-inner h1 {
+font-family: "Montserrat";
+font-size: 60px;
+line-height: 70px;
+letter-spacing: -0.699999988079071px;
+}
+.hero-inner p {
+font-family: "Open Sans";
+font-size: 20px;
+line-height: 32px;
+padding-bottom: 29px;
+}
+.btn {
+  margin-right: 27px;
+}
+.sponsor {
+    padding-top: 104px;
+    padding-bottom: 56px;
+}
+.sponsor h6 {
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+color: #807E7E;
+padding-bottom: 24px;
+}
+.sponsor-inner {
+  display: flex;
+ 
+}
+.sponsor-item  {
+  gap: 72px;
+   display: flex;
+}
+.chart {
+  padding-block: 120px;
+}
+.chart-inner h5 {
+font-family: "Montserrat";
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+color: #fff;
+padding-bottom: 16px;
+}
+.chart-inner h2 {
+font-family: "Montserrat";
+font-size: 40px;
+line-height: 48px;
+letter-spacing: -0.4000000059604645px;
+color: #fff;
+padding-bottom: 72px;
+}
+.product-watch {
+  padding-block: 120px;
+}
+.product-watch-inner {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.product-watch h4 {
+font-family: "Montserrat";
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+color: #fff;
+padding-bottom: 16px;
+}
+.product-watch-inner h3 {
+font-family: "Montserrat";
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -0.4000000059604645px;
+color: #fff;
+padding-bottom: 24px;
+}
+.background {
+  background-color: #212121;
+    border-radius: 50%;
+    width: 540px;
+    padding-left: 122px;
+    padding-right: 121.36px;
+    height: 512px;
+   
+    
+}
+.product-watch-item {
+  margin-right: 32px;
+}
+.product-watch-item p {
+font-family: "Open Sans";
+font-size: 20px;
+line-height: 32px;
+color: #fff;
+padding-bottom: 40px;
+
+}
+.product-watch-item a {
+  text-decoration: none;
+  color: #fff;
+font-family: "Montserrat";
+font-size: 18px;
+font-weight: 700;
+line-height: 32px;
+}
+.web-interface {
+  padding-block: 120px;
+  text-align: center;
+}
+.interface-inner h5 {
+font-family: "Montserrat";
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+padding-bottom: 16px;
+color: #fff;
+}
+.interface-inner h1 {
+font-family: "Montserrat";
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -0.4000000059604645px;
+color: #fff;
+padding-bottom: 48px;
+}
+.price {
+  padding-block: 120px;
+  text-align: center;
+}
+.price h5 {
+font-family: "Montserrat";
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+color: #fff;
+padding-bottom: 16px;
+}
+.price h1 {
+font-family: "Montserrat";
+font-size: 40px;
+line-height: 48px;
+letter-spacing: -0.4000000059604645px;
+color: #fff;
+padding-bottom: 48px;
+}
+.price-inner {
+  display: flex;
+  gap: 24px;
+}
+.card {
+  width: 340px;
+  background-color: #121212;
+  color: #fff;
+  padding: 40px;
+}
+.card h6 {
+font-family: "Montserrat";
+font-size: 24px;
+font-weight: 600;
+line-height: 34px;
+padding-bottom: 16px;
+}
+.card p {
+font-family: "Open Sans";
+line-height: 28px;
+padding-bottom: 16px;
+}
+.card span {
+font-family: "Montserrat";
+font-size: 60px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: -0.699999988079071px;
+}
+
+.subscribe-btn {
+padding: 16px 72px 16px 72px;
+border-radius: 3px;
+background-color: rgba(220, 53, 69, 1);
+text-decoration: none;
+color: #fff;
+margin-top: 24px;
+display: inline-block;
+font-family: "Montserrat";
+font-size: 23px;
+font-weight: 600;
+line-height: 32px;
+}
+.faq {
+  padding-block: 120px;
+ color: #fff;
+ 
+}
+.faq h3 {
+font-family: "Montserrat";
+font-size: 30px;
+font-weight: 700;
+line-height: 37px;
+letter-spacing: -0.3499999940395355px;
+border-bottom: 1px solid #3F3B3B;
+padding-bottom: 32px;
+}
+summary {
+  list-style: none;
+  padding-block: 23px;
+  border-bottom: 1px solid #3F3B3B;
+font-family: "Montserrat";
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+
+}
+details[open]  p {
+font-family: "Open Sans";
+line-height: 28px;
+padding-top: 15px;
+
+}
+.action {
+  padding-top: 64px;
+  padding-bottom: 120px;
+}
+.action-img {
+  display: flex;
+  flex-direction: row-reverse;
+  background: rgba(18, 18, 18, 1);
+  padding-top: 83px;
+}
+.action-btn {
+padding: 16px 72px 16px 72px;
+border-radius: 3px;
+background: rgba(220, 53, 69, 1);
+color: #fff;
+font-family: "Montserrat";
+font-size: 23px;
+font-weight: 600;
+line-height: 32px;
+text-decoration: none;
+display: inline-block;
+
+}
+.action-text h3 {
+font-family: "Montserrat";
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -0.4000000059604645px;
+color: #fff;
+margin-right: 158px;
+padding-bottom: 24px;
+
+}
+.fooder {
+  padding-top: 72px;
+  padding-bottom: 145px;
+  color: #fff;
+  border-bottom: 1px solid #3f3f3f;
+  
+}
+.fooder-column {
+  display: flex;
+  gap: 24px;
+  justify-content: space-evenly;
+}
+.fooder-title {
+  display: flex;
+  flex-direction: column;
+  
+}
+.fooder-title a {
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-decoration: none;
+color: #807E7E;
+}
+.fooder-title h5 {
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+padding-bottom: 8px;
+
+}
+.fooder-title select {
+  width: 354px;
+  height: 48px;
+  padding: 1px 1px 1.09px 16px;
+  border-radius: 3px;
+  background-color: #121212;
+  color: grey;
+  margin-top: 24px;
+}
+.fooder-title .select-title {
+  font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: right;
+}
+.social-media {
+  padding-block: 24px;
+  color: #fff;
+}
+.social-media-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.social-media-items {
+display: flex;
+gap: 24px;
+}
+  
